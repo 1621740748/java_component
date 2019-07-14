@@ -122,9 +122,9 @@ public class VerifyCodeUtil {
     }
 
     public static void main(String[] args) {
-        VerifyCodeUtil vCode = new VerifyCodeUtil(120, 40, 5, 100, "11111");
+        VerifyCodeUtil vCode = new VerifyCodeUtil(120, 40, 5, 100, "123456");
         try {
-            String path = "D:/t/" + "11.png";
+            String path =  "11.png";
             System.out.println(vCode.getCode() + " >" + path);
             vCode.write(path);
         } catch (IOException e) {
